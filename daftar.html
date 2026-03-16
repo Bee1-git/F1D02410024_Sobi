@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="widht=device=width, initial-scale=1.0">
+
+  <title>daftar</title>
+  <link rel="stylesheet" href="imas.css">
+</head>
+
+<body>
+  <h1 class="textalign">Selamat Datang! Di IDNJTOUR </h1>
+</head>
+<body>
+<section>
+  <form action="daftar.php" method="POST" enctype="multipart/form-data">
+   <fieldset>
+
+    <legend>Data Pribadi</legend>
+
+    <label for="nama">Nama Lengkap</label>
+    <input class="form" type="text" id="nama" name="nama" required placeholder="masukkan nama">
+
+    <label for="email"><br>Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="NO HP"><br>NO HP </label>
+    <input type="NO HP" id="NO HO" nama="NO HP">
+
+   </fieldset>
+
+   <fieldset>
+
+    <p>Informasi Tambahan</p>
+    <input for="hobi" id="hobi" name="hobi" required placeholder="masukkan hobi">
+
+    <label for="asal daerah"> <br>Daerah:</label>
+    <select id="daerah" name="daerah">
+      <option value="">-- Pilih Daerah --</option>
+      <option value="lombok">lombok</option>
+      <option value="sumbawa">sumbawa</option>
+      <option value="dompu">dompu</option>
+      <option value="bima">bima</option>
+    </select>
+    <label for="alamat"><br>Alamat<label> 
+    <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea>
+
+   </fieldset>
+
+   <button type="submit">Daftar</button>
+   <button type="reset">Reset</button>
+  </form>
+
+</body>
+</html>
